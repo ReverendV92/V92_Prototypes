@@ -1,0 +1,506 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "6412"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	solid
+	{
+		"id" "308"
+		side
+		{
+			"id" "19"
+			"plane" "(-512 256 256) (256 256 256) (256 -256 256)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 42.6667] 0.1875"
+			"vaxis" "[0 -1 0 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(-512 -256 -256) (256 -256 -256) (256 256 -256)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 42.6667] 0.1875"
+			"vaxis" "[0 -1 0 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(-512 256 256) (-512 -256 256) (-512 -256 -256)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(256 256 -256) (256 -256 -256) (256 -256 256)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.125"
+			"vaxis" "[0 0 -1 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23"
+			"plane" "(256 256 256) (-512 256 256) (-512 256 -256)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 42.6667] 0.1875"
+			"vaxis" "[0 0 -1 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "24"
+			"plane" "(256 -256 -256) (-512 -256 -256) (-512 -256 256)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 42.6667] 0.1875"
+			"vaxis" "[0 0 -1 0] 0.125"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "238 251 0"
+			"groupid" "335"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "357"
+		editor
+		{
+			"color" "238 251 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "335"
+		editor
+		{
+			"color" "238 251 0"
+			"groupid" "357"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "2"
+	"classname" "logic_relay"
+	"targetname" "fencegate_&i_relay"
+	connections
+	{
+		"OnUser2" "fencegate_&i_gate_prop,SetAnimation,close,1,-1"
+		"OnUser2" "fencegate_&i_button_prop,SetAnimation,press_out,0,-1"
+		"OnUser1" "fencegate_&i_gate_prop,SetAnimation,open,1,-1"
+		"OnUser1" "fencegate_&i_button_prop,SetAnimation,press_in,0,-1"
+	}
+	"origin" "-128 64 48"
+	editor
+	{
+		"color" "238 251 0"
+		"groupid" "335"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 -16268]"
+	}
+}
+entity
+{
+	"id" "4"
+	"classname" "ambient_generic"
+	"health" "10"
+	"message" "l4d2/animation/chainlink_fence_open.wav"
+	"pitch" "100"
+	"pitchstart" "100"
+	"radius" "2048"
+	"SourceEntityName" "truckyard2_gate"
+	"spawnflags" "48"
+	"targetname" "fencegate_&i_snd"
+	"origin" "-144 64 48"
+	editor
+	{
+		"color" "238 251 0"
+		"groupid" "335"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 10500]"
+	}
+}
+entity
+{
+	"id" "7"
+	"classname" "prop_dynamic_override"
+	"angles" "0 90 0"
+	"DefaultAnim" "idle"
+	"fademaxdist" "3600"
+	"fademindist" "3500"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/infra/props_electric/button_002.mdl"
+	"PerformanceMode" "1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "fencegate_&i_button_prop"
+	"origin" "-195 24 36"
+	editor
+	{
+		"color" "238 251 0"
+		"groupid" "335"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "9"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "-195.02 22.98 24"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "3"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "fencegate_&i_button"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "24"
+	connections
+	{
+		"OnIn" "fencegate_&i_relay,FireUser1,,0,-1"
+		"OnOut" "fencegate_&i_relay,FireUser2,,0,-1"
+		"OnOut" "truckyard2_fence_sound,PlaySound,,1,-1"
+		"OnIn" "truckyard2_fence_sound,PlaySound,,1,-1"
+	}
+	solid
+	{
+		"id" "10"
+		side
+		{
+			"id" "1"
+			"plane" "(-191 23.951 48) (-191 22 48) (-199 22 48)"
+			"material" "HL2/METAL/METALPIPE008A"
+			"uaxis" "[-1 0 0 -158.449] 0.1"
+			"vaxis" "[0 1 0 -155.278] 0.1"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-191 22 0) (-191.011 23.948 0) (-199 23.943 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 -28] 0.25"
+			"vaxis" "[0 1 0 -31.7969] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-191.012 23.948 0) (-191 22 0) (-191 22 48)"
+			"material" "HL2/METAL/METALPIPE008A"
+			"uaxis" "[0 -1 0 143.278] 0.1"
+			"vaxis" "[0 0 -1 -16] 0.1"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-199 22 0) (-199 23.943 0) (-199 23.946 48)"
+			"material" "HL2/METAL/METALPIPE008A"
+			"uaxis" "[0 -1 0 143.278] 0.1"
+			"vaxis" "[0 0 -1 -16] 0.1"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-191 22 0) (-199 22 0) (-199.012 22 48)"
+			"material" "HL2/METAL/METALPIPE008A"
+			"uaxis" "[-1 0 0 -158.449] 0.1"
+			"vaxis" "[0 0 -1 -16] 0.1"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-199 23.9428 0) (-191.016 23.9479 0) (-191 23.9508 48)"
+			"material" "HL2/METAL/METALPIPE008A"
+			"uaxis" "[-1 0 0 -158.008] 0.1"
+			"vaxis" "[0 0 -1 -16] 0.1"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "238 251 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "238 251 0"
+		"groupid" "335"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 16000]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "prop_dynamic"
+	"angles" "0 270 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"maxdxlevel" "0"
+	"MinAnimTime" "5"
+	"mindxlevel" "0"
+	"model" "models/infra/props_structure/vehicle_gate_002_anim.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "fencegate_&i_gate_prop"
+	"origin" "-1.90735e-006 15 9"
+	editor
+	{
+		"color" "238 251 0"
+		"groupid" "335"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[3500 -12268]"
+	}
+}
+entity
+{
+	"id" "16"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DefaultAnim" "idle"
+	"fademaxdist" "3600"
+	"fademindist" "3500"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/infra/props_electric/button_002.mdl"
+	"PerformanceMode" "1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"targetname" "fencegate_&i_button_prop"
+	"origin" "-189 0 36"
+	editor
+	{
+		"color" "238 251 0"
+		"groupid" "335"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "18"
+	"classname" "func_button"
+	"disablereceiveshadows" "0"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "-188.99 1.02 24"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sounds" "3"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "fencegate_&i_button"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "24"
+	connections
+	{
+		"OnIn" "fencegate_&i_relay,FireUser1,,0,-1"
+		"OnOut" "fencegate_&i_relay,FireUser2,,0,-1"
+		"OnIn" "truckyard2_fence_sound,PlaySound,,1,-1"
+		"OnOut" "truckyard2_fence_sound,PlaySound,,1,-1"
+	}
+	solid
+	{
+		"id" "19"
+		side
+		{
+			"id" "18"
+			"plane" "(-184.99 2.00001 48) (-185 0.0550308 48) (-193 0.0470047 48)"
+			"material" "HL2/METAL/METALPIPE008A"
+			"uaxis" "[1 0 0 97.5196] 0.1"
+			"vaxis" "[0 -1 0 84.7136] 0.1"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(-193 2.00001 0) (-193 0.0470352 0) (-185 0.0550613 0)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 35.9883] 0.25"
+			"vaxis" "[0 -1 0 0.201172] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(-193 0.0470047 0) (-193 2.00001 0) (-193 2.00001 48)"
+			"material" "HL2/METAL/METALPIPE008A"
+			"uaxis" "[0 1 0 -96.7136] 0.1"
+			"vaxis" "[0 0 -1 -16] 0.1"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(-185 2.00001 0) (-185 0.0550308 0) (-185 0.0550613 48)"
+			"material" "HL2/METAL/METALPIPE008A"
+			"uaxis" "[0 1 0 -96.7136] 0.1"
+			"vaxis" "[0 0 -1 -16] 0.1"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(-193 2.00001 0) (-185 2.00001 0) (-184.988 2.00001 48)"
+			"material" "HL2/METAL/METALPIPE008A"
+			"uaxis" "[1 0 0 97.5196] 0.1"
+			"vaxis" "[0 0 -1 -16] 0.1"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(-185.012 0.0550003 0) (-193 0.0470047 0) (-193 0.0470047 48)"
+			"material" "HL2/METAL/METALPIPE008A"
+			"uaxis" "[1 0 0 97.9649] 0.1"
+			"vaxis" "[0 0 -1 -16] 0.1"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "238 251 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "238 251 0"
+		"groupid" "335"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[1000 16000]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-1024 -1024 -1024)"
+	"maxs" "(1024 1024 1024)"
+	"active" "0"
+}

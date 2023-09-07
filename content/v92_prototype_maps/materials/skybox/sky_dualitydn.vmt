@@ -1,0 +1,18 @@
+
+unlitgeneric
+{
+
+	$basetexture skybox/sky_day01_01dn
+	$hdrcompressedtexture skybox/sky_day01_01_hdrdn
+
+	$nofog 1
+	$nomip 1
+	$ignorez 1
+
+	unlitgeneric_HDR_dx9
+	{
+		$basetexture skybox/sky_day01_09dn
+		$hdrcompressedtexture skybox/sky_day01_09_hdrdn
+	}
+
+}

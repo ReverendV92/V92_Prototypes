@@ -1,0 +1,4219 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "6412"
+	"mapversion" "49"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "8"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "49"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "painted"
+	solid
+	{
+		"id" "5059"
+		side
+		{
+			"id" "1915"
+			"plane" "(-128 0 0) (128 0 0) (128 -256 0)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1916"
+			"plane" "(-128 -256 -256) (128 -256 -256) (128 0 -256)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1917"
+			"plane" "(-128 0 0) (-128 -256 0) (-128 -256 -256)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 256] 0.25"
+			"vaxis" "[0 0 -1 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1918"
+			"plane" "(128 0 -256) (128 -256 -256) (128 -256 0)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 256] 0.25"
+			"vaxis" "[0 0 -1 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1919"
+			"plane" "(128 0 0) (-128 0 0) (-128 0 -256)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1920"
+			"plane" "(128 -256 -256) (-128 -256 -256) (-128 -256 0)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 -256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 153 242"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5063"
+		side
+		{
+			"id" "1932"
+			"plane" "(-128 128 128) (128 128 128) (128 0 128)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1931"
+			"plane" "(-128 0 0) (128 0 0) (128 128 0)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 -1 0 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1930"
+			"plane" "(-128 128 128) (-128 0 128) (-128 0 0)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1929"
+			"plane" "(128 128 0) (128 0 0) (128 0 128)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -256] 0.25"
+			"vaxis" "[0 0 -1 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1928"
+			"plane" "(128 128 128) (-128 128 128) (-128 128 0)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "1927"
+			"plane" "(128 0 0) (-128 0 0) (-128 0 128)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 256] 0.25"
+			"vaxis" "[0 0 -1 256] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 153 242"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "5505"
+		side
+		{
+			"id" "2088"
+			"plane" "(-96 -224 64) (-96 -160 64) (-32 -160 64)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2087"
+			"plane" "(-96 -160 0) (-96 -224 0) (-32 -224 0)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2086"
+			"plane" "(-96 -224 0) (-96 -160 0) (-96 -160 64)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2085"
+			"plane" "(-32 -160 0) (-32 -224 0) (-32 -224 64)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2084"
+			"plane" "(-96 -160 0) (-32 -160 0) (-32 -160 64)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2083"
+			"plane" "(-32 -224 0) (-96 -224 0) (-96 -224 64)"
+			"material" "TOOLS/TOOLSSKIP"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "5504"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	hidden
+	{
+		solid
+		{
+			"id" "6786"
+			side
+			{
+				"id" "2844"
+				"plane" "(-64 -64 128) (-64 64 128) (64 64 128)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[1 0 0 0] 0.25"
+				"vaxis" "[0 -1 0 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "32"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "2843"
+				"plane" "(-64 64 -64) (-64 -64 -64) (64 -64 -64)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[1 0 0 0] 0.25"
+				"vaxis" "[0 -1 0 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "32"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "2842"
+				"plane" "(-64 -64 -64) (-64 64 -64) (-64 64 128)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[0 1 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "32"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "2841"
+				"plane" "(64 64 -64) (64 -64 -64) (64 -64 128)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[0 1 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "32"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "2840"
+				"plane" "(-64 64 -64) (64 64 -64) (64 64 128)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[1 0 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "32"
+				"smoothing_groups" "0"
+			}
+			side
+			{
+				"id" "2839"
+				"plane" "(64 -64 -64) (-64 -64 -64) (-64 -64 128)"
+				"material" "TOOLS/TOOLSSKIP"
+				"uaxis" "[1 0 0 0] 0.25"
+				"vaxis" "[0 0 -1 0] 0.25"
+				"rotation" "0"
+				"lightmapscale" "32"
+				"smoothing_groups" "0"
+			}
+			editor
+			{
+				"color" "0 194 123"
+				"visgroupshown" "1"
+				"visgroupautoshown" "1"
+			}
+		}
+	}
+	solid
+	{
+		"id" "8519"
+		side
+		{
+			"id" "3138"
+			"plane" "(-16376 16376 16376) (16376 16376 16376) (16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3137"
+			"plane" "(-16376 16376 16376) (-16376 -16376 16376) (-16376 -16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3136"
+			"plane" "(16376 16376 -16376) (16376 -16376 -16376) (16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3135"
+			"plane" "(16376 16376 16376) (-16376 16376 16376) (-16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3134"
+			"plane" "(16376 -16376 -16376) (-16376 -16376 -16376) (-16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3133"
+			"plane" "(128 -256 128) (128 128 128) (-128 128 128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 220 101"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	solid
+	{
+		"id" "8521"
+		side
+		{
+			"id" "3144"
+			"plane" "(-16376 -16376 -16376) (16376 -16376 -16376) (16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3143"
+			"plane" "(-16376 16376 16376) (-16376 -16376 16376) (-16376 -16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3142"
+			"plane" "(16376 16376 -16376) (16376 -16376 -16376) (16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3141"
+			"plane" "(16376 16376 16376) (-16376 16376 16376) (-16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3140"
+			"plane" "(16376 -16376 -16376) (-16376 -16376 -16376) (-16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3139"
+			"plane" "(128 128 -128) (128 -256 -128) (-128 -256 -128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 220 101"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	solid
+	{
+		"id" "8523"
+		side
+		{
+			"id" "3150"
+			"plane" "(-16376 16376 16376) (-16376 -16376 16376) (-16376 -16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3149"
+			"plane" "(16376 16376 16376) (-16376 16376 16376) (-16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3148"
+			"plane" "(16376 -16376 -16376) (-16376 -16376 -16376) (-16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3147"
+			"plane" "(-128 128 128) (128 128 128) (128 -256 128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3146"
+			"plane" "(-128 -256 -128) (128 -256 -128) (128 128 -128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3145"
+			"plane" "(-128 -256 -128) (-128 -256 128) (-128 128 128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 220 101"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	solid
+	{
+		"id" "8525"
+		side
+		{
+			"id" "3156"
+			"plane" "(16376 16376 -16376) (16376 -16376 -16376) (16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3155"
+			"plane" "(16376 16376 16376) (-16376 16376 16376) (-16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3154"
+			"plane" "(16376 -16376 -16376) (-16376 -16376 -16376) (-16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3153"
+			"plane" "(-128 128 128) (128 128 128) (128 -256 128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3152"
+			"plane" "(-128 -256 -128) (128 -256 -128) (128 128 -128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3151"
+			"plane" "(128 -256 128) (128 -256 -128) (128 128 -128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 220 101"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	solid
+	{
+		"id" "8527"
+		side
+		{
+			"id" "3162"
+			"plane" "(16376 16376 16376) (-16376 16376 16376) (-16376 16376 -16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3161"
+			"plane" "(-128 128 128) (128 128 128) (128 -256 128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3160"
+			"plane" "(-128 -256 -128) (128 -256 -128) (128 128 -128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3159"
+			"plane" "(-128 128 128) (-128 -256 128) (-128 -256 -128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3158"
+			"plane" "(128 128 -128) (128 -256 -128) (128 -256 128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3157"
+			"plane" "(-128 128 -128) (-128 128 128) (128 128 128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 220 101"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	solid
+	{
+		"id" "8529"
+		side
+		{
+			"id" "3168"
+			"plane" "(16376 -16376 -16376) (-16376 -16376 -16376) (-16376 -16376 16376)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3167"
+			"plane" "(-128 128 128) (128 128 128) (128 -256 128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3166"
+			"plane" "(-128 -256 -128) (128 -256 -128) (128 128 -128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3165"
+			"plane" "(-128 128 128) (-128 -256 128) (-128 -256 -128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3164"
+			"plane" "(128 128 -128) (128 -256 -128) (128 -256 128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3163"
+			"plane" "(-128 -256 128) (-128 -256 -128) (128 -256 -128)"
+			"material" "TOOLS/TOOLSSKYBOX2D"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 220 101"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"cordonsolid" "1"
+		}
+	}
+	group
+	{
+		"id" "5504"
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "5506"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "5504"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "5507"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "5504"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "5508"
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "5504"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "5469"
+	"classname" "info_player_start"
+	"angles" "0 90 0"
+	"origin" "0 -128 0.999985"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "5509"
+	"classname" "env_skypaint"
+	"bottomcolor" "0.000 0.518 0.769"
+	"duskcolor" "0.753 0.753 0.753"
+	"duskintensity" "1.0"
+	"duskscale" "1.0"
+	"fadebias" "1.0"
+	"hdrscale" "0.66"
+	"starfade" "1.0"
+	"starscale" "0.5"
+	"starspeed" "0.01"
+	"startexture" "skybox/starfield"
+	"suncolor" "0.2 0.1 0.0"
+	"sunnormal" "0.4 0.0 0.01"
+	"sunsize" "2.0"
+	"topcolor" "0.016 0.376 0.733"
+	"origin" "-72 -200 32"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "5504"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "5511"
+	"classname" "light_environment"
+	"_ambient" "201 215 224 200"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_AmbientScaleHDR" "1.5"
+	"_light" "239 218 190 500"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"angles" "0 111 0"
+	"pitch" "-45"
+	"SunSpreadAngle" "0.5"
+	"origin" "-56 -184 32"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "5504"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "5513"
+	"classname" "shadow_control"
+	"angles" "0 111 0"
+	"color" "128 128 128"
+	"distance" "1024"
+	"origin" "-72 -184 32"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "5504"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "5515"
+	"classname" "env_fog_controller"
+	"angles" "0 111 0"
+	"farz" "-1"
+	"fogblend" "1"
+	"fogcolor" "192 192 192"
+	"fogcolor2" "128 128 128"
+	"fogdir" "1 0 0"
+	"fogenable" "1"
+	"fogend" "28000"
+	"fogmaxdensity" "1"
+	"fogstart" "8000"
+	"spawnflags" "0"
+	"origin" "-56 -200 32"
+	editor
+	{
+		"color" "220 220 220"
+		"groupid" "5504"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6346"
+		"classname" "ambient_generic"
+		"cspinup" "0"
+		"fadeinsecs" "0"
+		"fadeoutsecs" "0"
+		"gmod_allowphysgun" "0"
+		"gmod_allowtools" "none"
+		"health" "10"
+		"lfomodpitch" "0"
+		"lfomodvol" "0"
+		"lforate" "0"
+		"lfotype" "0"
+		"message" "jessev92/fx/record_scratch.mp3"
+		"pitch" "100"
+		"pitchstart" "100"
+		"preset" "0"
+		"radius" "8192"
+		"SourceEntityName" "jukebox_&i_prop"
+		"spawnflags" "16"
+		"spindown" "0"
+		"spinup" "0"
+		"targetname" "jukebox_&i_song_scratch"
+		"volstart" "0"
+		"origin" "15.0631 -55.962 136"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[-15268 -5768]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6349"
+		"classname" "logic_auto"
+		"globalstate" "is_pc"
+		"spawnflags" "1"
+		connections
+		{
+			"OnMapSpawn" "jukebox_&i_fonz_mode,Lock,,1,1"
+			"OnMapSpawn" "jukebox_&i_power_prop,FireUser1,,1,1"
+		}
+		"origin" "-32.9369 -55.962 152"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6407"
+		"classname" "logic_relay"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"targetname" "jukebox_&i_power_relay"
+		connections
+		{
+			"OnUser1" "jukebox_&i_button_*,Lock,,0.5,-1"
+			"OnUser1" "jukebox_&i_song_*,StopSound,,0.5,-1"
+			"OnUser1" "jukebox_&i_prop,FireUser1,,0.5,-1"
+			"OnUser1" "jukebox_&i_song_scratch,PlaySound,,0.5,-1"
+			"OnUser1" "jukebox_&i_fonz_mode,Lock,,0.5,-1"
+			"OnUser1" "jukebox_&i_power_prop,FireUser3,,0,-1"
+			"OnUser2" "jukebox_&i_power_prop,FireUser2,,0,-1"
+			"OnUser2" "jukebox_&i_button_*,Unlock,,1,-1"
+			"OnUser1" "jukebox_&i_prop_menu,Skin,3,0.5,-1"
+			"OnUser2" "jukebox_&i_prop_menu,Skin,2,1,-1"
+			"OnUser2" "jukebox_&i_prop_body,Skin,0,1,-1"
+			"OnUser1" "jukebox_&i_prop_body,Skin,1,1,-1"
+			"OnUser2" "jukebox_&i_prop,Skin,0,1,-1"
+			"OnUser1" "jukebox_&i_prop,Skin,1,1,-1"
+		}
+		"origin" "-0.936863 -55.962 136"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"comments" "User1=Unplug,User2=Plug,"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6409"
+		"classname" "logic_relay"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"targetname" "jukebox_&i_master_relay"
+		connections
+		{
+			"OnUser1" "jukebox_&i_prop,FireUser4,,0,-1"
+			"OnUser1" "jukebox_&i_button_*,Lock,,0,-1"
+			"OnUser2" "jukebox_&i_prop,FireUser1,,0,-1"
+			"OnUser2" "jukebox_&i_fonz_mode,Lock,,0,-1"
+		}
+		"origin" "-32.9369 -55.962 136"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"comments" "User1=StartSong,User2=EndSong,User3=?,User4=?;If you're reading this, this is probably the biggest clusterfuck of a relay I've ever created. -V92"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6411"
+		"classname" "logic_relay"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"targetname" "jukebox_&i_fonz_relay"
+		connections
+		{
+			"OnUser1" "jukebox_&i_prop,FireUser4,,0,-1"
+			"OnUser1" "jukebox_&i_song_scratch,PlaySound,,0,-1"
+			"OnUser1" "jukebox_&i_fonz_mode,Lock,,0,-1"
+			"OnUser1" "jukebox_&i_song_4c,PlaySound,,6.5,-1"
+			"OnUser2" "jukebox_&i_fonz_mode,Unlock,,0,-1"
+			"OnUser1" "jukebox_&i_song_*,StopSound,,0,-1"
+			"OnUser3" "jukebox_&i_fonz_mode,Lock,,0,-1"
+		}
+		"origin" "-16.9369 -55.962 136"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"comments" "User1=Start Fonz Mode"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6413"
+		"classname" "filter_damage_type"
+		"damagetype" "128"
+		"Negated" "Allow entities that match criteria"
+		"targetname" "jukebox_&i_fonz_filter"
+		"origin" "-16.9369 -55.962 152"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6716"
+		"classname" "ambient_generic"
+		"cspinup" "0"
+		"fadeinsecs" "0"
+		"fadeoutsecs" "0"
+		"gmod_allowphysgun" "0"
+		"gmod_allowtools" "none"
+		"health" "10"
+		"lfomodpitch" "0"
+		"lfomodvol" "0"
+		"lforate" "0"
+		"lfotype" "0"
+		"message" "jessev92/fx/record_scratch.mp3"
+		"pitch" "100"
+		"pitchstart" "100"
+		"preset" "0"
+		"radius" "8192"
+		"SourceEntityName" "jukebox_&i_prop"
+		"spawnflags" "16"
+		"spindown" "0"
+		"spinup" "0"
+		"targetname" "jukebox_&i_song_scratch"
+		"volstart" "0"
+		"origin" "-16.3378 -127.627 136"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[-15268 -5768]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6719"
+		"classname" "logic_auto"
+		"globalstate" "is_pc"
+		"spawnflags" "1"
+		connections
+		{
+			"OnMapSpawn" "jukebox_&i_fonz_mode,Lock,,1,1"
+			"OnMapSpawn" "jukebox_&i_power_prop,FireUser1,,1,1"
+		}
+		"origin" "-64.3378 -127.627 152"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6777"
+		"classname" "logic_relay"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"targetname" "jukebox_&i_power_relay"
+		connections
+		{
+			"OnUser1" "jukebox_&i_button_*,Lock,,0.5,-1"
+			"OnUser1" "jukebox_&i_song_*,StopSound,,0.5,-1"
+			"OnUser1" "jukebox_&i_prop,FireUser1,,0.5,-1"
+			"OnUser1" "jukebox_&i_song_scratch,PlaySound,,0.5,-1"
+			"OnUser1" "jukebox_&i_fonz_mode,Lock,,0.5,-1"
+			"OnUser1" "jukebox_&i_power_prop,FireUser3,,0,-1"
+			"OnUser2" "jukebox_&i_power_prop,FireUser2,,0,-1"
+			"OnUser2" "jukebox_&i_button_*,Unlock,,1,-1"
+			"OnUser1" "jukebox_&i_prop_menu,Skin,3,0.5,-1"
+			"OnUser2" "jukebox_&i_prop_menu,Skin,2,1,-1"
+			"OnUser2" "jukebox_&i_prop_body,Skin,0,1,-1"
+			"OnUser1" "jukebox_&i_prop_body,Skin,1,1,-1"
+			"OnUser2" "jukebox_&i_prop,Skin,0,1,-1"
+			"OnUser1" "jukebox_&i_prop,Skin,1,1,-1"
+		}
+		"origin" "-32.3378 -127.627 136"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"comments" "User1=Unplug,User2=Plug,"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6779"
+		"classname" "logic_relay"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"targetname" "jukebox_&i_master_relay"
+		connections
+		{
+			"OnUser1" "jukebox_&i_prop,FireUser4,,0,-1"
+			"OnUser1" "jukebox_&i_button_*,Lock,,0,-1"
+			"OnUser2" "jukebox_&i_prop,FireUser1,,0,-1"
+			"OnUser2" "jukebox_&i_fonz_mode,Lock,,0,-1"
+		}
+		"origin" "-64.3378 -127.627 136"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"comments" "User1=StartSong,User2=EndSong,User3=?,User4=?;If you're reading this, this is probably the biggest clusterfuck of a relay I've ever created. -V92"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6781"
+		"classname" "logic_relay"
+		"spawnflags" "0"
+		"StartDisabled" "0"
+		"targetname" "jukebox_&i_fonz_relay"
+		connections
+		{
+			"OnUser1" "jukebox_&i_prop,FireUser4,,0,-1"
+			"OnUser1" "jukebox_&i_song_scratch,PlaySound,,0,-1"
+			"OnUser1" "jukebox_&i_fonz_mode,Lock,,0,-1"
+			"OnUser1" "jukebox_&i_song_4c,PlaySound,,6.5,-1"
+			"OnUser2" "jukebox_&i_fonz_mode,Unlock,,0,-1"
+			"OnUser1" "jukebox_&i_song_*,StopSound,,0,-1"
+			"OnUser3" "jukebox_&i_fonz_mode,Lock,,0,-1"
+		}
+		"origin" "-48.3378 -127.627 136"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"comments" "User1=Start Fonz Mode"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+hidden
+{
+	entity
+	{
+		"id" "6783"
+		"classname" "filter_damage_type"
+		"damagetype" "128"
+		"Negated" "Allow entities that match criteria"
+		"targetname" "jukebox_&i_fonz_filter"
+		"origin" "-48.3378 -127.627 152"
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+			"logicalpos" "[0 0]"
+		}
+	}
+}
+entity
+{
+	"id" "6793"
+	"classname" "prop_dynamic_override"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "5100"
+	"fademindist" "5000"
+	"fadescale" "1"
+	"health" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/valve/props_unique/jukebox01_body.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "jukebox_&i_prop_body"
+	"origin" "0 -11.3046 32"
+	editor
+	{
+		"color" "0 224 129"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "6795"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/lady_be_good.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_3b"
+	"volstart" "0"
+	"origin" "-88 -8 24"
+	editor
+	{
+		"color" "0 242 111"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6798"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/sentimental_over_you.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_3c"
+	"volstart" "0"
+	"origin" "-72 -8 24"
+	editor
+	{
+		"color" "0 128 189"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6801"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/rock_around_the_clock.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_3d"
+	"volstart" "0"
+	"origin" "-56 -8 24"
+	editor
+	{
+		"color" "0 138 215"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6804"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/northwest_passage.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_3a"
+	"volstart" "0"
+	"origin" "-104 -8 24"
+	editor
+	{
+		"color" "0 216 129"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6807"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/shake_rattle_roll.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_4d"
+	"volstart" "0"
+	"origin" "-56 -8 8"
+	editor
+	{
+		"color" "0 134 167"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6810"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/aint_nothing_but_a_hound_dog.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_4c"
+	"volstart" "0"
+	"origin" "-72 -8 8"
+	editor
+	{
+		"color" "0 208 101"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6813"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/rusty_dusty_blues.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_4b"
+	"volstart" "0"
+	"origin" "-88 -8 8"
+	editor
+	{
+		"color" "0 122 191"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6816"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/sing_sing_sing.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_4a"
+	"volstart" "0"
+	"origin" "-104 -8 8"
+	editor
+	{
+		"color" "0 192 153"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6819"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/great_balls_of_fire.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_2d"
+	"volstart" "0"
+	"origin" "-56 -8 40"
+	editor
+	{
+		"color" "0 246 103"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6822"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/stardust.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_2c"
+	"volstart" "0"
+	"origin" "-72 -8 40"
+	editor
+	{
+		"color" "0 156 245"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6825"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/when_the_saints_go_marching_in.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_2b"
+	"volstart" "0"
+	"origin" "-88 -8 40"
+	editor
+	{
+		"color" "0 150 163"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6828"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/pennsylvania_6_5000.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_2a"
+	"volstart" "0"
+	"origin" "-104 -8 40"
+	editor
+	{
+		"color" "0 224 153"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6831"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/johnny_b_goode.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_1d"
+	"volstart" "0"
+	"origin" "-56 -8 56"
+	editor
+	{
+		"color" "0 138 107"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6834"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/sunrise_serenade.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_1c"
+	"volstart" "0"
+	"origin" "-72 -8 56"
+	editor
+	{
+		"color" "0 212 233"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6837"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/get_your_kicks_on_route_66.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_1b"
+	"volstart" "0"
+	"origin" "-88 -8 56"
+	editor
+	{
+		"color" "0 162 223"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6840"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/music/oldies/chattanooga_choo_choo.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_1a"
+	"volstart" "0"
+	"origin" "-104 -8 56"
+	editor
+	{
+		"color" "0 172 209"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6843"
+	"classname" "func_button"
+	"damagefilter" "jukebox_&i_fonz_filter"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "0 -8 40"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "13"
+	"spawnflags" "513"
+	"speed" "5"
+	"targetname" "jukebox_&i_fonz_mode"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "-1"
+	connections
+	{
+		"OnDamaged" "jukebox_&i_fonz_relay,FireUser1,,0,-1"
+	}
+	solid
+	{
+		"id" "6844"
+		side
+		{
+			"id" "2850"
+			"plane" "(-19 -16 32) (19 -16 32) (19 0 32)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 116] 0.25"
+			"vaxis" "[0 -1 0 312] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2849"
+			"plane" "(19 0 48) (19 0 32) (19 -16 32)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -312] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2848"
+			"plane" "(-19 0 32) (19 0 32) (19 0 48)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 116] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2847"
+			"plane" "(19 -16 48) (19 -16 32) (-19 -16 32)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 116] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2846"
+			"plane" "(-19 0 48) (19 0 48) (19 -16 48)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 96] 0.25"
+			"vaxis" "[0 -1 0 312] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2845"
+			"plane" "(-19 -16 48) (-19 -16 32) (-19 0 32)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -312] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 178 131"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 178 131"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "6846"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"gmod_allowphysgun" "0"
+	"gmod_allowtools" "none"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "jessev92/fx/record_scratch.mp3"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "8192"
+	"SourceEntityName" "jukebox_&i_prop"
+	"spawnflags" "16"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "jukebox_&i_song_scratch"
+	"volstart" "0"
+	"origin" "-56 -8 72"
+	editor
+	{
+		"color" "0 184 149"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[-15268 -5768]"
+	}
+}
+entity
+{
+	"id" "6849"
+	"classname" "logic_auto"
+	"globalstate" "is_pc"
+	"spawnflags" "1"
+	connections
+	{
+		"OnMapSpawn" "jukebox_&i_fonz_mode,Lock,,1,1"
+		"OnMapSpawn" "jukebox_&i_power_prop,FireUser1,,1,1"
+	}
+	"origin" "-104 -8 88"
+	editor
+	{
+		"color" "0 138 219"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6851"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "-9 -21.5 45.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_1a"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_1a,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,221,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6852"
+		side
+		{
+			"id" "2856"
+			"plane" "(-7 -22 46) (-11 -22 46) (-11 -21 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 -1 0 288] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2855"
+			"plane" "(-11 -21 45) (-11 -21 46) (-11 -22 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -288] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2854"
+			"plane" "(-7 -21 46) (-11 -21 46) (-11 -21 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2853"
+			"plane" "(-7 -22 45) (-11 -22 45) (-11 -22 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2852"
+			"plane" "(-7 -21 45) (-11 -21 45) (-11 -22 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 288] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2851"
+			"plane" "(-7 -22 45) (-7 -22 46) (-7 -21 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -288] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 249"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 249"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "6854"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "-9 -22.5 44.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_2a"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_2a,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,176,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6855"
+		side
+		{
+			"id" "2862"
+			"plane" "(-11 -23 45) (-11 -23 44) (-11 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2861"
+			"plane" "(-11 -22 45) (-11 -22 44) (-7 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2860"
+			"plane" "(-7 -23 44) (-11 -23 44) (-11 -23 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2859"
+			"plane" "(-7 -23 45) (-11 -23 45) (-11 -22 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2858"
+			"plane" "(-7 -22 44) (-11 -22 44) (-11 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2857"
+			"plane" "(-7 -22 45) (-7 -22 44) (-7 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 246 107"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 246 107"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "6857"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "-9 -22.5 43.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_3a"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_3a,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,185,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6858"
+		side
+		{
+			"id" "2868"
+			"plane" "(-11 -23 44) (-11 -23 43) (-11 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2867"
+			"plane" "(-11 -22 44) (-11 -22 43) (-7 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2866"
+			"plane" "(-7 -23 43) (-11 -23 43) (-11 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2865"
+			"plane" "(-7 -23 44) (-11 -23 44) (-11 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2864"
+			"plane" "(-7 -22 43) (-11 -22 43) (-11 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2863"
+			"plane" "(-7 -22 44) (-7 -22 43) (-7 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 108 189"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 108 189"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6860"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "-9 -22.5 42.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_4a"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_4a,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,263,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6861"
+		side
+		{
+			"id" "2874"
+			"plane" "(-7 -22 42) (-11 -22 42) (-11 -23 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2873"
+			"plane" "(-11 -23 43) (-11 -23 42) (-11 -22 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2872"
+			"plane" "(-11 -22 43) (-11 -22 42) (-7 -22 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2871"
+			"plane" "(-7 -23 42) (-11 -23 42) (-11 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2870"
+			"plane" "(-7 -23 43) (-11 -23 43) (-11 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2869"
+			"plane" "(-7 -22 43) (-7 -22 42) (-7 -23 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 122 111"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 122 111"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "6863"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "-4 -21.5 45.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_1b"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_1b,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,202,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6864"
+		side
+		{
+			"id" "2880"
+			"plane" "(-1 -22 46) (-7 -22 46) (-7 -21 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 -1 0 288] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2879"
+			"plane" "(-7 -21 45) (-1 -21 45) (-1 -21 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2878"
+			"plane" "(-1 -22 45) (-7 -22 45) (-7 -22 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2877"
+			"plane" "(-1 -21 45) (-7 -21 45) (-7 -22 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 288] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2876"
+			"plane" "(-7 -21 45) (-7 -21 46) (-7 -22 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -288] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2875"
+			"plane" "(-1 -22 45) (-1 -22 46) (-1 -21 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -288] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 204 157"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 204 157"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "6866"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "-4 -22.5 44.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_2b"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_2b,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,201,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6867"
+		side
+		{
+			"id" "2886"
+			"plane" "(-7 -22 44) (-1 -22 44) (-1 -22 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2885"
+			"plane" "(-1 -23 44) (-7 -23 44) (-7 -23 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2884"
+			"plane" "(-1 -23 45) (-7 -23 45) (-7 -22 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2883"
+			"plane" "(-1 -22 44) (-7 -22 44) (-7 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2882"
+			"plane" "(-7 -23 45) (-7 -23 44) (-7 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2881"
+			"plane" "(-1 -22 45) (-1 -22 44) (-1 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 190 227"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 190 227"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "6869"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "-4 -22.5 43.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_3b"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_3b,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,183,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6870"
+		side
+		{
+			"id" "2892"
+			"plane" "(-7 -22 43) (-1 -22 43) (-1 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2891"
+			"plane" "(-1 -23 43) (-7 -23 43) (-7 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2890"
+			"plane" "(-1 -23 44) (-7 -23 44) (-7 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2889"
+			"plane" "(-1 -22 43) (-7 -22 43) (-7 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2888"
+			"plane" "(-7 -23 44) (-7 -23 43) (-7 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2887"
+			"plane" "(-1 -22 44) (-1 -22 43) (-1 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 144 141"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 144 141"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "6872"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "-4 -22.5 42.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_4b"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_4b,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,188,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6873"
+		side
+		{
+			"id" "2898"
+			"plane" "(-1 -22 42) (-7 -22 42) (-7 -23 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2897"
+			"plane" "(-7 -22 42) (-1 -22 42) (-1 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2896"
+			"plane" "(-1 -23 42) (-7 -23 42) (-7 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2895"
+			"plane" "(-1 -23 43) (-7 -23 43) (-7 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2894"
+			"plane" "(-7 -23 43) (-7 -23 42) (-7 -22 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2893"
+			"plane" "(-1 -22 43) (-1 -22 42) (-1 -23 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 218 255"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 218 255"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "6875"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "2 -21.5 45.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_1c"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_1c,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,125,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6876"
+		side
+		{
+			"id" "2904"
+			"plane" "(5 -22 46) (-1 -22 46) (-1 -21 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 -1 0 288] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2903"
+			"plane" "(-1 -21 45) (5 -21 45) (5 -21 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2902"
+			"plane" "(5 -22 45) (-1 -22 45) (-1 -22 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2901"
+			"plane" "(5 -21 45) (-1 -21 45) (-1 -22 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 288] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2900"
+			"plane" "(-1 -21 45) (-1 -21 46) (-1 -22 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -288] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2899"
+			"plane" "(5 -22 45) (5 -22 46) (5 -21 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -288] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 156 205"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 156 205"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "6878"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "2 -22.5 44.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_2c"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_2c,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,195,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6879"
+		side
+		{
+			"id" "2910"
+			"plane" "(-1 -22 44) (5 -22 44) (5 -22 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2909"
+			"plane" "(5 -23 44) (-1 -23 44) (-1 -23 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2908"
+			"plane" "(5 -23 45) (-1 -23 45) (-1 -22 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2907"
+			"plane" "(5 -22 44) (-1 -22 44) (-1 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2906"
+			"plane" "(-1 -23 45) (-1 -23 44) (-1 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2905"
+			"plane" "(5 -22 45) (5 -22 44) (5 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 194 187"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 194 187"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "6881"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "2 -22.5 43.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_3c"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_3c,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,155,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6882"
+		side
+		{
+			"id" "2916"
+			"plane" "(-1 -22 43) (5 -22 43) (5 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2915"
+			"plane" "(5 -23 43) (-1 -23 43) (-1 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2914"
+			"plane" "(5 -23 44) (-1 -23 44) (-1 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2913"
+			"plane" "(5 -22 43) (-1 -22 43) (-1 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2912"
+			"plane" "(-1 -23 44) (-1 -23 43) (-1 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2911"
+			"plane" "(5 -22 44) (5 -22 43) (5 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 160 249"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 160 249"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4000]"
+	}
+}
+entity
+{
+	"id" "6884"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "2 -22.5 42.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_4c"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_4c,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,140,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+	}
+	solid
+	{
+		"id" "6885"
+		side
+		{
+			"id" "2922"
+			"plane" "(5 -22 42) (-1 -22 42) (-1 -23 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2921"
+			"plane" "(-1 -22 42) (5 -22 42) (5 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2920"
+			"plane" "(5 -23 42) (-1 -23 42) (-1 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2919"
+			"plane" "(5 -23 43) (-1 -23 43) (-1 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2918"
+			"plane" "(-1 -23 43) (-1 -23 42) (-1 -22 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2917"
+			"plane" "(5 -22 43) (5 -22 42) (5 -23 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 118 163"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 118 163"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 4500]"
+	}
+}
+entity
+{
+	"id" "6887"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "8 -21.5 45.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_1d"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_1d,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,295,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6888"
+		side
+		{
+			"id" "2928"
+			"plane" "(5 -21 46) (11 -21 46) (11 -22 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 -1 0 288] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2927"
+			"plane" "(11 -22 45) (11 -22 46) (11 -21 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -288] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2926"
+			"plane" "(5 -21 45) (11 -21 45) (11 -21 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2925"
+			"plane" "(5 -22 46) (11 -22 46) (11 -22 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2924"
+			"plane" "(5 -22 45) (11 -22 45) (11 -21 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 288] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2923"
+			"plane" "(5 -21 45) (5 -21 46) (5 -22 46)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -288] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 216 213"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 216 213"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "6890"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "8 -22.5 44.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_2d"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_2d,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,125,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6891"
+		side
+		{
+			"id" "2934"
+			"plane" "(11 -22 45) (11 -22 44) (11 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2933"
+			"plane" "(5 -22 44) (11 -22 44) (11 -22 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2932"
+			"plane" "(11 -23 45) (11 -23 44) (5 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2931"
+			"plane" "(5 -22 45) (11 -22 45) (11 -23 45)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2930"
+			"plane" "(5 -23 44) (11 -23 44) (11 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2929"
+			"plane" "(5 -23 45) (5 -23 44) (5 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 126 135"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 126 135"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 5500]"
+	}
+}
+entity
+{
+	"id" "6893"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "8 -22.5 43.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_3d"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_3d,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,135,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6894"
+		side
+		{
+			"id" "2940"
+			"plane" "(11 -22 44) (11 -22 43) (11 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2939"
+			"plane" "(5 -22 43) (11 -22 43) (11 -22 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2938"
+			"plane" "(11 -23 44) (11 -23 43) (5 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2937"
+			"plane" "(5 -22 44) (11 -22 44) (11 -23 44)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2936"
+			"plane" "(5 -23 43) (11 -23 43) (11 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2935"
+			"plane" "(5 -23 44) (5 -23 43) (5 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 120 169"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 120 169"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6000]"
+	}
+}
+entity
+{
+	"id" "6896"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "8 -22.5 42.5"
+	"parentname" "jukebox_&i_prop"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "14"
+	"spawnflags" "1025"
+	"speed" "5"
+	"targetname" "jukebox_&i_button_4d"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "30"
+	connections
+	{
+		"OnPressed" "jukebox_&i_song_4d,PlaySound,,6,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser2,,155,-1"
+		"OnPressed" "jukebox_&i_master_relay,FireUser1,,0,-1"
+		"OnPressed" "jukebox_&i_fonz_relay,FireUser2,,8,-1"
+	}
+	solid
+	{
+		"id" "6897"
+		side
+		{
+			"id" "2946"
+			"plane" "(5 -23 42) (11 -23 42) (11 -22 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2945"
+			"plane" "(11 -22 43) (11 -22 42) (11 -23 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2944"
+			"plane" "(5 -22 42) (11 -22 42) (11 -22 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2943"
+			"plane" "(11 -23 43) (11 -23 42) (5 -23 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 20] 0.25"
+			"vaxis" "[0 0 -1 -76] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2942"
+			"plane" "(5 -22 43) (11 -22 43) (11 -23 43)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 284] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2941"
+			"plane" "(5 -23 43) (5 -23 42) (5 -22 42)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -284] 0.25"
+			"vaxis" "[0 0 -1 -132] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 182 191"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 182 191"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "6899"
+	"classname" "prop_dynamic_override"
+	"angles" "0 270 0"
+	"DefaultAnim" "idle"
+	"fademaxdist" "2100"
+	"fademindist" "2000"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/infra/props_electric/robin_puzzle_wire_001.mdl"
+	"parentname" "jukebox_&i_prop"
+	"PerformanceMode" "1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "jukebox_&i_power_prop"
+	connections
+	{
+		"OnUser1" "!self,SetAnimation,idle,0,-1"
+		"OnUser2" "!self,SetAnimation,plug,0,-1"
+		"OnUser3" "!self,SetAnimation,unplug,0,-1"
+		"OnUser2" "!self,FireUser1,,0.55,-1"
+		"OnUser3" "!self,FireUser1,,0.55,-1"
+	}
+	"origin" "28 0 8"
+	editor
+	{
+		"color" "0 100 225"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "6901"
+	"classname" "infodecal"
+	"angles" "0 0 0"
+	"texture" "decals/bms/plugsocket01"
+	"origin" "28 0 12"
+	editor
+	{
+		"color" "0 254 103"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2000]"
+	}
+}
+entity
+{
+	"id" "6904"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"movedir" "0 0 0"
+	"origin" "25.5 -1.5 10"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "11"
+	"spawnflags" "1057"
+	"speed" "5"
+	"targetname" "jukebox_&i_stop_that_racket"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "-1"
+	connections
+	{
+		"OnIn" "jukebox_&i_power_relay,FireUser1,,0,-1"
+		"OnOut" "jukebox_&i_power_relay,FireUser2,,0,-1"
+		"OnPressed" "!self,Lock,,0,-1"
+		"OnPressed" "!self,Unlock,,8,-1"
+	}
+	solid
+	{
+		"id" "6905"
+		side
+		{
+			"id" "2952"
+			"plane" "(18 -2 4) (33 -2 4) (33 -1 4)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 -1 0 308] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2951"
+			"plane" "(33 -1 16) (33 -1 4) (33 -2 4)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -308] 0.25"
+			"vaxis" "[0 0 -1 -216] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2950"
+			"plane" "(18 -1 4) (33 -1 4) (33 -1 16)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -216] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2949"
+			"plane" "(33 -2 16) (33 -2 4) (18 -2 4)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 -32] 0.25"
+			"vaxis" "[0 0 -1 -216] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2948"
+			"plane" "(18 -1 16) (33 -1 16) (33 -2 16)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[1 0 0 -52] 0.25"
+			"vaxis" "[0 -1 0 308] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2947"
+			"plane" "(18 -2 16) (18 -2 4) (18 -1 4)"
+			"material" "DEV/GRAYGRID"
+			"uaxis" "[0 1 0 -308] 0.25"
+			"vaxis" "[0 0 -1 -272] 0.25"
+			"rotation" "0"
+			"lightmapscale" "32"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 176 165"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 176 165"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 6500]"
+	}
+}
+entity
+{
+	"id" "6907"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "jukebox_&i_power_relay"
+	connections
+	{
+		"OnUser1" "jukebox_&i_button_*,Lock,,0.5,-1"
+		"OnUser1" "jukebox_&i_song_*,StopSound,,0.5,-1"
+		"OnUser1" "jukebox_&i_prop,FireUser1,,0.5,-1"
+		"OnUser1" "jukebox_&i_song_scratch,PlaySound,,0.5,-1"
+		"OnUser1" "jukebox_&i_fonz_mode,Lock,,0.5,-1"
+		"OnUser1" "jukebox_&i_power_prop,FireUser3,,0,-1"
+		"OnUser2" "jukebox_&i_power_prop,FireUser2,,0,-1"
+		"OnUser2" "jukebox_&i_button_*,Unlock,,1,-1"
+		"OnUser1" "jukebox_&i_prop_menu,Skin,3,0.5,-1"
+		"OnUser2" "jukebox_&i_prop_menu,Skin,2,1,-1"
+		"OnUser2" "jukebox_&i_prop_body,Skin,0,1,-1"
+		"OnUser1" "jukebox_&i_prop_body,Skin,1,1,-1"
+		"OnUser2" "jukebox_&i_prop,Skin,0,1,-1"
+		"OnUser1" "jukebox_&i_prop,Skin,1,1,-1"
+	}
+	"origin" "-72 -8 72"
+	editor
+	{
+		"color" "0 134 219"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "User1=Unplug,User2=Plug,"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6909"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "jukebox_&i_master_relay"
+	connections
+	{
+		"OnUser1" "jukebox_&i_prop,FireUser4,,0,-1"
+		"OnUser1" "jukebox_&i_button_*,Lock,,0,-1"
+		"OnUser2" "jukebox_&i_prop,FireUser1,,0,-1"
+		"OnUser2" "jukebox_&i_fonz_mode,Lock,,0,-1"
+	}
+	"origin" "-104 -8 72"
+	editor
+	{
+		"color" "0 212 145"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "User1=StartSong,User2=EndSong,User3=?,User4=?;If you're reading this, this is probably the biggest clusterfuck of a relay I've ever created. -V92"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6911"
+	"classname" "logic_relay"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "jukebox_&i_fonz_relay"
+	connections
+	{
+		"OnUser1" "jukebox_&i_button_4c,Press,,0,-1"
+		"OnUser1" "jukebox_&i_song_scratch,PlaySound,,0,-1"
+		"OnUser1" "jukebox_&i_fonz_mode,Lock,,0,-1"
+		"OnUser1" "jukebox_&i_song_4c,PlaySound,,6.5,-1"
+		"OnUser2" "jukebox_&i_fonz_mode,Unlock,,0,-1"
+		"OnUser1" "jukebox_&i_song_*,StopSound,,0,-1"
+		"OnUser3" "jukebox_&i_fonz_mode,Lock,,0,-1"
+	}
+	"origin" "-88 -8 72"
+	editor
+	{
+		"color" "0 130 183"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "User1=Start Fonz Mode"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6913"
+	"classname" "filter_damage_type"
+	"damagetype" "128"
+	"Negated" "Allow entities that match criteria"
+	"targetname" "jukebox_&i_fonz_filter"
+	"origin" "-88 -8 88"
+	editor
+	{
+		"color" "0 212 209"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6788"
+	"classname" "prop_dynamic_override"
+	"angles" "0 0 0"
+	"DisableBoneFollowers" "0"
+	"disablereceiveshadows" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "5100"
+	"fademindist" "5000"
+	"fadescale" "1"
+	"health" "0"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/valve/props_unique/jukebox01_menu.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"skin" "2"
+	"solid" "0"
+	"spawnflags" "0"
+	"targetname" "jukebox_&i_prop_menu"
+	"origin" "0 -23.3046 44"
+	editor
+	{
+		"color" "0 244 121"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "6791"
+	"classname" "prop_dynamic_override"
+	"angles" "0 0 0"
+	"DefaultAnim" "idle"
+	"disableshadows" "1"
+	"fademaxdist" "5100"
+	"fademindist" "5000"
+	"fadescale" "1"
+	"MaxAnimTime" "10"
+	"MinAnimTime" "5"
+	"model" "models/valve/props_unique/jukebox01.mdl"
+	"PerformanceMode" "1"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"targetname" "jukebox_&i_prop"
+	connections
+	{
+		"OnUser1" "!self,SetAnimation,idle,0,-1"
+		"OnUser2" "!self,SetAnimation,replace,0,-1"
+		"OnUser3" "!self,SetAnimation,diskspin,0,-1"
+		"OnUser4" "!self,FireUser2,,0,-1"
+		"OnUser4" "!self,FireUser3,,6,-1"
+	}
+	"origin" "0 -11.3046 32"
+	editor
+	{
+		"color" "0 178 163"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"comments" "User1=Idle,User2=Replace,User3=DiskSpin,User4=Replace and Play"
+		"logicalpos" "[0 500]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordon
+{
+	"mins" "(-128 -256 -128)"
+	"maxs" "(128 128 128)"
+	"active" "1"
+}
+quickhide
+{
+	"count" "1"
+}

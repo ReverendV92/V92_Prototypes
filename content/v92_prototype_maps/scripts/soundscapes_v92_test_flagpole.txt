@@ -1,0 +1,530 @@
+
+//	V92_Test_Flagpole Soundscapes
+//	By Reverend Jesse Vanover
+//	http://steamcommunity.com/id/JesseVanover/
+//	http://JesseVanover92.NET
+//	Created: 2019/04/30
+//	Updated: 2019/04/30
+
+"V92.Flagpole.A"
+{
+
+	"dsp" "0"
+
+	"playlooping"
+	{
+	
+		"position" "0"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "1"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "2"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "3"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "4"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "5"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "6"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "7"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+}
+
+"V92.Flagpole.B"
+{
+
+	"dsp" "0"
+
+	"playlooping"
+	{
+	
+		"position" "0"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "1"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "2"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "3"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "4"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "5"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "6"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "7"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+}
+
+"V92.Flagpole.C"
+{
+
+	"dsp" "0"
+
+	"playlooping"
+	{
+	
+		"position" "0"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "1"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "2"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "3"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "4"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "5"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "6"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "7"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+}
+
+"V92.Flagpole.D"
+{
+
+	"dsp" "0"
+
+	"playlooping"
+	{
+	
+		"position" "0"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "1"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "2"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "3"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "4"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "5"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "6"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "7"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+}
+
+"V92.Flagpole.E"
+{
+
+	"dsp" "0"
+
+	"playlooping"
+	{
+	
+		"position" "0"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "1"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "2"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "3"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "4"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "5"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "6"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "7"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+}
+
+"V92.Flagpole.F"
+{
+
+	"dsp" "0"
+
+	"playlooping"
+	{
+	
+		"position" "0"
+		"volume" "1"
+		"pitch" "100"
+		"attenuation" "1.0"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "1"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "2"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "3"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "4"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "5"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "6"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+	"playlooping"
+	{
+	
+		"position" "7"
+		"volume" "1"
+		"pitch" "100"
+		"wave" "valve/ambient/wind/flag_and_rope_loop.wav"
+
+	}
+
+}

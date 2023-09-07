@@ -1,0 +1,35 @@
+water
+{
+
+	water_dx60
+	{
+		$fallbackmaterial nature/water_dx70_beneath
+	}
+	%tooltexture reflective_floor/reflectivefloor_normal
+
+	$normalmap reflective_floor/reflectivefloor_normal
+	$bumpmap reflective_floor/reflectivefloor_dudv
+	$bumpframe 0
+
+	$scale "[ 1 1 ]"
+
+	$abovewater 0
+	$cheapwaterstartdistance 500
+	$cheapwaterenddistance 1000
+	%compilewater 1
+
+	$refractamount 1
+	$refracttint "{ 120 120 120 }"
+	$reflectamount 0.7
+	$reflecttint "[ 26 26 26 ]"
+	$reflecttexture _rt_waterreflection
+
+	$bottommaterial dev/dev_waterbeneath2
+	$surfaceprop water
+
+	$fogenable 0
+	$fogcolor "{ 20 20 20 }"
+	$fogstart 1024
+	$fogend 1024
+
+}

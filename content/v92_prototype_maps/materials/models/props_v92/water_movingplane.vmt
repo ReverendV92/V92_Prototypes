@@ -1,0 +1,66 @@
+
+vertexlitgeneric
+{
+
+	$basetexture dev/water_moving
+	// $bumpmap dev/water_normal
+
+	$translucent 1
+	$surfaceprop water
+
+	$halflambert 1
+	$flashlightnolambert 1 // Does a damn thing?
+
+	$envmap env_cubemap
+	$normalmapalphaenvmapmask 1
+	$envmaptint "[ 1 0.9 0.8 ]"
+	$envmapcontrast 1
+
+	%keywords wasteland
+
+	// %compilewater 1
+	$abovewater 1
+	$bottommaterial nature/water_movingplane_beneath
+	
+
+	Proxies
+	{
+		AnimatedTexture
+		{
+			animatedtexturevar $basetexture
+			animatedtextureframenumvar $frame
+			animatedtextureframerate 21.00
+		}
+		AnimatedTexture
+		{
+			animatedtexturevar $bumpmap
+			animatedtextureframenumvar $bumpframe
+			animatedtextureframerate 21.00
+		}
+	}
+
+	$treesway 1
+	//changes the treesway effect. 0 is no sway , 1 is classic tree sway , 2 is an alternate , radial tree sway effect in portal 2 , cs:go , and alien swarm engines.
+	//tree sway mode 2: hacks to use tree sway code on rectangular sheets of plastic/tarp attached at the four corners. 
+	//inverts the sway scale radius to be 1 at (0,0,0 ) in model space and fall off radially towards the edges of the model.
+	//the model is expected to be built lying in the xy plane in model space , with its center at the origin.
+
+	$treeswayheight 256 //the height in which the effect is applied.
+	$treeswaystartheight 0 //the height from the origin in which the effect starts blending in.
+	$treeswayradius 2 //the radius from the origin in which the effect is applied.
+	$treeswaystartradius 2 //the radius from the origin in which the effect starts blending in.
+	$treeswayspeed 1 //0.1 //the speed multiplier of large movement such as the trunk.
+	$treeswaystrength 0.1 //the distance multiplier of large movement such as the trunk.
+	$treeswayscrumblespeed 0.8 //the falloff of the effect on small movement such as the trunk. higher means a more stable center.
+
+	$treeswayscrumblestrength 0.3 //the speed multiplier of the small movement such as the leaves.
+	$treeswayscrumblefrequency 0.3 //the distance multiplier of the small movement such as the leaves.
+	$treeswayfalloffexp 0.5 //the frequency of the rippling of a sine wave in small movement such as the leaves.
+	$treeswayscrumblefalloffexp 0.5 //the falloff of the effect on small movement such as the leaves. higher means a more stable center.
+
+	$treeswayspeedhighwindmultiplier 0.5 //speed multiplier when env_wind triggers a gust.
+	$treeswayspeedlerpstart 0 //minimum wind speed in which a gust triggered by env_wind will start affecting the material.
+	$treeswayspeedlerpend 0 //minimum wind speed in which a gust triggered by env_wind will fully affect the material.
+	$treeswaystatic 0 //whether or not to instead use a static wind value instead of the values from env_wind.
+
+}

@@ -1,0 +1,19 @@
+
+unlitgeneric
+{
+
+	$basetexturetransform "center 0 0 scale 1 2 rotate 0 translate 0 0"
+	$basetexture skybox/sky_day01_01bk
+	$hdrcompressedtexture skybox/sky_day01_01_hdrbk
+
+	$nofog 1
+	$nomip 1
+	$ignorez 1
+
+	unlitgeneric_HDR_dx9
+	{
+		$basetexture skybox/sky_day01_09bk
+		$hdrcompressedtexture skybox/sky_day01_09_hdrbk
+	}
+
+}
