@@ -1,0 +1,15 @@
+
+lightmappedgeneric
+{
+
+	$basetexture wood/woodfloor008a
+	$bumpmap wood/woodfloor008a_normal
+
+	$surfaceprop wood
+
+	$detail detail/wood_detail_01
+	$detailscale 8
+	$detailblendfactor 0.3
+	$detailblendmode 0
+
+}

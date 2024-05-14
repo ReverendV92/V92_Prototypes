@@ -1,0 +1,18 @@
+Info
+{
+	"name"				"Testing & Prototype Maps"
+	"description"		"Testing Maps"
+
+	"version"			"1.0.0.0"
+	"created"			"2018-05-10 00:00:00 UTC+1"
+	"modified"			"2018-05-10 00:00:00 UTC+1"
+
+	"creator"
+	{
+		"name"			"Obsidian Conflict Team"
+		"contact"		"info@obsidianconflict.net"
+		"url"			"https://obsidianconflict.net"
+	}
+
+	"override"			true
+}

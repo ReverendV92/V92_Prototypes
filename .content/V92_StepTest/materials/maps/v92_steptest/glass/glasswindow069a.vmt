@@ -1,0 +1,16 @@
+
+lightmappedgeneric
+{
+
+	$basetexture glass/glasswindow069a
+	$bumpmap glass/glasswindow069a_normal
+	$surfaceprop glass
+
+	$detail detail/noise_detail_01
+	$detailscale 7
+	$detailblendfactor 0.1
+	$detailblendmode 0
+
+	%keywords "c17skyscraper"
+
+}

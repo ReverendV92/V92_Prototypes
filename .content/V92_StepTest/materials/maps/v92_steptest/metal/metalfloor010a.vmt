@@ -1,0 +1,20 @@
+
+lightmappedgeneric
+{
+
+	$basetexture metal/metalfloor010a
+	// $bumpmap metal/metalfloor001b_normal
+	$bumpmap dev/bump_normal
+	
+	$surfaceprop metalpanel
+
+	// $alphatest 1
+	
+	$detail detail/bms/bm_metal_detail_01
+	$detailscale 4
+	$detailblendfactor 1
+	$detailblendmode 0
+
+	// %compilepassbullets 1
+
+}

@@ -1,0 +1,18 @@
+
+lightmappedgeneric
+{
+
+	$basetexture stone/stonewall_kalt02
+	$bumpmap dev/bump_normal
+	// $lightwarptexture dev/identitylightwarp
+	
+	$surfaceprop concrete
+	
+	$detail detail/noise_detail_01
+	$detailscale 8
+	$detailblendfactor 0.7
+	$detailblendmode 0
+	
+	%keywords "dod,c17downtown"
+	
+}

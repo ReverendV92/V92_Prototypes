@@ -1,0 +1,15 @@
+
+lightmappedgeneric
+{
+
+	$basetexture decals/bms/letters/decal_numbers_00
+	// $basetexture2 decals/bms/color_black
+
+	$color "{ 21 21 21 }"
+
+	$decal 1
+	$decalscale 0.25
+	$translucent 1
+	%keywords "bms"
+
+}

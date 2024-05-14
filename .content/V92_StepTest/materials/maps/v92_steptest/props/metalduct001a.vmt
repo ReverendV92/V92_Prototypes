@@ -1,0 +1,9 @@
+
+lightmappedgeneric
+{
+
+	$basetexture props/metalduct001a
+
+	$surfaceprop metalvent
+
+}

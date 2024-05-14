@@ -1,0 +1,8 @@
+
+lightmappedgeneric
+{
+
+	$basetexture nature/dirtfloor008a
+	$surfaceprop dirt
+
+}

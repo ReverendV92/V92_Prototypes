@@ -1,0 +1,9 @@
+
+lightmappedgeneric
+{
+
+	$basetexture cncr04s/flesh/hellanustube2
+
+	$surfaceprop flesh
+
+}

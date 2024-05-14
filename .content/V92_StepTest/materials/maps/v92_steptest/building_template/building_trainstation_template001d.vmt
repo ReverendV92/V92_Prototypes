@@ -1,0 +1,20 @@
+
+// Valve @ original shader
+// V92 @ remaster
+
+lightmappedgeneric
+{
+
+	$basetexture building_template/Building_Trainstation_Template001d
+	$bumpmap dev/bump_normal
+
+	$surfaceprop glass
+	
+	$selfillum 1
+
+	// $detail detail/bms/bm_concrete_detail_01
+	// $detailscale 7.740
+	// $detailblendfactor 0.8
+	// $detailblendmode 0
+
+}

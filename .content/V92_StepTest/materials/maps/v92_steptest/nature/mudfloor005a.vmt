@@ -1,0 +1,15 @@
+
+lightmappedgeneric
+{
+
+	$basetexture nature/mudfloor005a
+	$bumpmap nature/mudfloor005a_normal
+	
+	$surfaceprop mud
+
+	$detail detail/wood_detail_01
+	$detailscale 8
+	$detailblendfactor 0.4
+	$detailblendmode 0
+
+}

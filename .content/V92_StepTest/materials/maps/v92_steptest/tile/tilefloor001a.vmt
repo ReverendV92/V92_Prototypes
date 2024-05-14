@@ -1,0 +1,17 @@
+
+lightmappedgeneric
+{
+
+	$basetexture tile/tilefloor001a
+	$bumpmap dev/bump_normal
+	
+	$surfaceprop tile
+
+	$detail detail/noise_detail_01
+	$detailscale 8
+	$detailblendfactor 0.3
+	$detailblendmode 0
+
+	%keywords "c17skyscraper"
+
+}

@@ -1,0 +1,15 @@
+
+lightmappedgeneric
+{
+
+	$basetexture nature/snowfloor002a
+	$bumpmap dev/bump_normal
+
+	$surfaceprop snow
+
+	$detail detail/noise_detail_01
+	$detailscale 8
+	$detailblendfactor 0.3
+	$detailblendmode 0
+
+}

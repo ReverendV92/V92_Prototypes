@@ -1,0 +1,17 @@
+
+lightmappedgeneric
+{
+
+	$basetexture wood/woodwall005a
+	$bumpmap dev/bump_normal
+
+	$surfaceprop wood_panel
+
+	$detail detail/wood_detail_01
+	$detailscale 8
+	$detailblendfactor 0.3
+	$detailblendmode 0
+
+	%keywords "c17downtown,wasteland"
+
+}

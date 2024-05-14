@@ -1,0 +1,15 @@
+
+lightmappedgeneric
+{
+
+	$basetexture nature/grassfloor002a
+	$bumpmap dev/bump_normal
+	
+	$surfaceprop grass
+
+	$detail detail/noise_detail_01
+	$detailscale 8
+	$detailblendfactor 0.7
+	$detailblendmode 0
+
+}
